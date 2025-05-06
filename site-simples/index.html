@@ -1,71 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tecnologias para aplicações para internet  </title>
+    <title>Tecnologias para Aplicações para Internet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <h1>Tecnologias para Aplicações para Internet</h1>
         <nav>
-            <ul>
-                <li> <a href="index.html"> Pagina Inicial </a></li>
-                <li> <a href="contato.html"> Contato </a></li>
-                <li> <a href="conteudo.html"> Conteúdo </a></li>
-            </ul>
+            <a href="index.html">Início</a>
+            <a href="conteudo.html">conteudo</a>
+            <a href="contato.html">Contato</a>
         </nav>
     </header>
-    <section>
-        <h1> Contato </h1>
-    </section>
 
-    <!--Formulario-->
+    <main>
+        <section class="intro">
+            <p>Este site apresenta as principais tecnologias utilizadas no desenvolvimento de aplicações para internet, como HTML, CSS, JavaScript e frameworks modernos.</p>
+        </section>
 
-    <section>
-        <form action="" method="post">
-        
+        <section class="tecnologias">
+            <h2>Tecnologias Principais</h2>
+            <ul>
+                <li>HTML</li><br>
+                <li>CSS</li><br>
+                <li>JavaScript</li><br>
+                <li>React</li><br>
+                <li>Node.js</li><br>
+                <li>Express</li><br>
+                <li>MongoDB</li><br><br><br>
+                <img src="./img/internet-das-coisas.jpg" alt="">
+            </ul>
+        </section>
+    </main>
 
-            <label for="nome"> Nome: </label>
-            <input type="text" placeholder="Digite seu nome" maxlength="20"><br><br>
-
-            <label for="email"> E-mail: </label>
-            <input type="email" placeholder="Digite seu E-mail"><br><br>
-
-            <label for="mensagem"> Mensagem: </label><br>
-            <textarea></textarea> <br><br>
-
-            <label for="telefone"> Telefone: </label>
-            <input type="tel" placeholder="Digite seu telefone"><br><br>
-
-            <label for="senha"> Senha</label>
-            <input type="password" placeholder="Digite sua senha"><br><br>
-
-            <label for="Estado Civil"> Estado Civil </label>
-            <select name="estado_civil" id="estado_civil">
-                <option value="solteiro">Solteiro</option>
-                <option value="casado">Casado</option>
-                <option value="divorciado">Divorciado</option>
-                <option value="viuvo">Viúvo</option>
-                <option value="uniao_estavel">União Estável</option>
-                </select><br><br>
-
-            <label for="Genêro"> Genêro </label>
-            <p><input type="radio" name="radiogenero"> Masculino</p>
-            <p><input type="radio" name="radiogenero"> Feminino</p>
-            <p><input type="radio" name="radiogenero"> Outro</p>
-
-            <input type="submit" value="Enviar">
-        </form>
-
-    </section>
     <footer>
-        <p> Todos os direitos reservados &copy; 2025</p>
-        <p> Desenvolvido por Alex da Silva Venancio </p>
-        
+        <p>Criado por Alex da Silva Venancio — 2025</p>
     </footer>
-
-
-
 </body>
 </html>
