@@ -160,6 +160,7 @@ img{
     width: 50%; 
     border-radius: 10px; 
     margin: 0px 25%;
+
 }
 form{
     font-family: helvetica, arial, verdana; 
@@ -168,13 +169,6 @@ form{
     border-radius: 100%;
 
 }
-
-
-
-
-
-
-
 
 body {
     font-family: Arial, sans-serif;
